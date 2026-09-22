@@ -1,0 +1,54 @@
+/* Etapa 13: Estilização em lilás e branco */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f0f7; /* Fundo lilás suave */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #4a154b;
+  margin-bottom: 24px;
+}
+
+#lista-produtos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  background-color: #ffffff; /* Fundo branco */
+  border-radius: 12px;
+  padding: 24px;
+  width: 280px;
+  box-shadow: 0 4px 15px rgba(106, 27, 154, 0.15); /* Sombra lilás */
+  border: 2px solid #e1bee7;                       /* Borda lilás */
+}
+
+.card h2 {
+  font-size: 1.4rem;
+  color: #6a1b9a;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #555555;
+  font-size: 0.95rem;
+  margin: 8px 0;
+}
+
+.card .preco {
+  color: #8e24aa;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 16px;
+  background-color: #f3e5f5;
+  padding: 8px;
+  border-radius: 6px;
+  text-align: center;
+}

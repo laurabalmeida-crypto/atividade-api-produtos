@@ -1,35 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catálogo de Produtos</title>
+  <title>Produtos da API</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Gerenciador de Produtos</h1>
 
-    <!-- Formulário de Cadastro -->
-    <section class="card">
-      <h2>Cadastrar Produto</h2>
-      <form id="form-produto">
-        <input type="text" id="nome" placeholder="Nome do Produto" required>
-        <input type="number" id="preco" step="0.01" placeholder="Preço (R$)" required>
-        <input type="text" id="categoria" placeholder="Categoria" required>
-        <button type="submit">Cadastrar</button>
-      </form>
-    </section>
+  <h1>Produtos da API</h1>
 
-    <!-- Lista de Produtos -->
-    <section class="card">
-      <h2>Lista de Produtos</h2>
-      <ul id="lista-produtos">
-        <!-- Itens injetados pelo JavaScript -->
-      </ul>
-    </section>
-  </div>
+  <!-- Etapa 9: Div com o ID exato que a atividade pede -->
+  <div id="lista-produtos"></div>
 
+  <!-- Vincula o JavaScript no final do body -->
   <script src="script.js"></script>
 </body>
 </html>
